@@ -44,8 +44,8 @@ describe ("teste de botões", () => {
         cy.visit( 
             "https://automacaocombatista.herokuapp.com/buscaelementos/inputsetextfield"
              );
-            cy.get('[id="password"]').type("teste");
-            cy.get('[id="password"]').should("have.value","teste");    
+            cy.get('[id="password"]').type("1234");
+            cy.get('[id="password"]').should("have.value","1234");    
 
 
     });  
